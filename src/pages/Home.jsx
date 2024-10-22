@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
             <Nav page="Home" />
-            <div className='max-w-7xl w-full mx-auto mt-24 flex flex-col md:flex-row'>
+            <div data-aos='fade-up' className='max-w-7xl w-full mx-auto mt-24 flex flex-col md:flex-row'>
                 <div className="px-8 md:p-0 md:w-1/2 flex flex-col grow justify-center">
                     <p className='text-2xl'>Welcome to</p>
                     <h1 className='text-6xl'>Battle Pokemon</h1>

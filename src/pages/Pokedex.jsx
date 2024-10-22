@@ -104,7 +104,7 @@ export default function Pokedex() {
             <Nav page="Pokedex" />
             <div className='max-w-7xl w-full mx-auto mt-12 md:mt-24 flex flex-col'>
 
-                <h5 className="text-3xl mb-6 px-4 md:px-0">
+                <h5 data-aos='fade-up' className="text-3xl mb-6 px-4 md:px-0">
                     Pokedex{" "}
                     <span className="text-sm font-light">
                         ({pokemon.list.length} pokémons)
@@ -112,7 +112,7 @@ export default function Pokedex() {
                 </h5>
 
                 {/* Controls */}
-                <div className="grid md:grid-cols-3 gap-x-4 mb-2 px-4 md:px-0">
+                <div data-aos='fade-up' className="grid md:grid-cols-3 gap-x-4 mb-2 px-4 md:px-0">
                     {/* Search Input */}
                     <div className="flex flex-col gap-2">
                         <h5>Search Pokemon</h5>
@@ -191,7 +191,7 @@ export default function Pokedex() {
                 </div>
 
                 {/* Pagination */}
-                <div className="flex mb-6 gap-4">
+                <div data-aos='fade-up' className="flex mb-6 gap-4 px-4 md:px-0">
                     <button
                         className={`px-4 py-2 border rounded-full duration-300 ${pokemon.currentPage === 0
                             ? 'opacity-80 cursor-not-allowed bg-gray-200 text-gray-500'

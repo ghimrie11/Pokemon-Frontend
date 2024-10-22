@@ -3,6 +3,12 @@ import About from './pages/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Battle from './pages/Battle';
 import Pokedex from './pages/Pokedex';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
+AOS.init({
+  duration: 1000,
+});
 
 
 export default function App() {

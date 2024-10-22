@@ -112,9 +112,9 @@ const Battle = () => {
         <div>
             <Nav page="Battle" />
             <div className='max-w-7xl w-full mx-auto mt-24 flex flex-col'>
-                <h1 className="text-3xl font-light text-center mb-4">Let the Battle Begin</h1>
+                <h1 data-aos='fade-up' className="text-3xl font-light text-center mb-4">Let the Battle Begin</h1>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 mb-4 px-4 md:px-0">
+                <div data-aos='fade-up' className="grid grid-cols-1 md:grid-cols-3 mb-4 px-4 md:px-0">
                     <Choice
                         position="left"
                         onPokemonChange={setLeftPokemon}
@@ -128,7 +128,7 @@ const Battle = () => {
                     />
                 </div>
 
-                <div className="flex flex-col items-center w-full mb-12">
+                <div data-aos='fade-up' className="flex flex-col items-center w-full mb-12">
                     <button
                         className="mx-auto w-max text-white/50 border py-4 px-8 text-4xl rounded-full hover:bg-white/10 transition-colors"
                         onClick={startBattle}
