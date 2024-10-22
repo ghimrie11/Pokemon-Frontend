@@ -40,11 +40,11 @@ export default function Choice({ name, type, hp }) {
                     <div className="flex w-full py-2">
                         <div className="w-1/2 text-gray-500">Moves</div>
                         <div className="w-1/2 text-gray-600 flex flex-col">
-                           {
-                            moves.map((move, index) => (
-                                <p className="text-sm" key={index}>{move}</p>
-                              ))
-                           }
+                            {
+                                moves.map((move, index) => (
+                                    <p className="text-sm" key={index}>{move}</p>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
